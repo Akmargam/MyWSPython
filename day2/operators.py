@@ -14,8 +14,13 @@
 
 #taking an input
 
-x=int(input("Please enter a number"))#as input() returns string
-print("the entered number is: ",x)
-y=50
-print(y+x)
+# Aru
+
+name=input("Please enter your name ")
+print("Your name is ",name)
+
+age=input("Please enter your age ")
+print("Your age is ",age)
+print(type(name))
+print(type(age))
 
