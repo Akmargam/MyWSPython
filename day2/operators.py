@@ -14,7 +14,7 @@
 
 #taking an input
 
-x=int(input("Please enter a number"))
+x=int(input("Please enter a number"))#as input() returns string
 print("the entered number is: ",x)
 y=50
 print(y+x)
