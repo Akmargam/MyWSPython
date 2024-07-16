@@ -1,6 +1,5 @@
 #loops
 
 a=1
-while a<10:
-    print("Hello",a)
-    a=a+1
+for a in ra(1,30,1):
+    print(a)
