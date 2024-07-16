@@ -14,4 +14,4 @@
 prod=1
 for a in range(1,11):
     prod=prod*a
-print(prod)
+    print(prod,end=",")
