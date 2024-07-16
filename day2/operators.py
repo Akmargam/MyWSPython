@@ -13,6 +13,9 @@
 
 
 #taking an input
-print("Please enter a number")
-x=input()
+
+x=int(input("Please enter a number"))
 print("the entered number is: ",x)
+y=50
+print(y+x)
+
