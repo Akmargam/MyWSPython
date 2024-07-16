@@ -1,7 +1,2 @@
-num1=100
-num2=200.25
-print(num1)
-num2="Arun"
-print(num2)
-choice= True
-print(type(choice))
+for x in range(2, 30, 3):
+  print(x)
