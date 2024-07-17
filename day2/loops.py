@@ -18,6 +18,12 @@
     
 #input from user and count down to zero
 
+# num=int(input("PLease enter a number:"))
+# for num in range(num,-1,-1):
+#     print(num)
+    
+#Multiplication table
+
 num=int(input("PLease enter a number:"))
-for num in range(num,-1,-1):
-    print(num)
+for num1 in range(1,11,1):
+    print(num,"*",num1,"=",num1*num )
