@@ -16,12 +16,13 @@
 # else:
 #     print("It's an odd number")
 
-marks=int(input("Enter your marks"))
-if marks>90:
-    print("Your grade is A")
-elif 80<=marks<90:
-    print("Your grade is B")
-elif 60<=marks<80:
-    print("Your grade is C")
-else:
-    print("Your grade is D")
+while True:
+    marks=int(input("Enter your marks"))
+    if marks>90:
+        print("Your grade is A")
+    elif 80<=marks<90:
+        print("Your grade is B")
+    elif 60<=marks<=80:
+        print("Your grade is C")
+    else:
+        print("Your grade is D")
