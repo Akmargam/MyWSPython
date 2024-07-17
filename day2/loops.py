@@ -11,7 +11,13 @@
 # print(sum)#according to this statement indentation, within loop or or not decided
 
 #product of 1-10 numbers
-prod=1
-for a in range(1,11):
-    prod=prod*a
-    print(prod,end=",")
+# prod=1
+# for a in range(1,11):
+#     prod=prod*a
+#     print(prod,end=",")
+    
+#input from user and count down to zero
+
+num=int(input("PLease enter a number:"))
+for num in range(num,-1,-1):
+    print(num)
