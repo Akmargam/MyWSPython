@@ -3,3 +3,5 @@ l1.append(333)#adding elements
 l1.insert(1,444)
 l1.insert(3,"arun")
 print(l1)
+l1.remove(444)
+print(l1)
