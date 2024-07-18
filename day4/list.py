@@ -5,5 +5,5 @@ l1=[3,52,5,63,2,6,7,237,7,1]
 # print(l1)
 # l1.remove(444)
 # print(l1)
-l1.pop()
+l1.pop(1)
 print(l1)
