@@ -1,0 +1,5 @@
+t1=(1,6,96,4,)
+l1=list(t1)
+l1.append(88)
+t2=tuple(l1)
+print(t2)
