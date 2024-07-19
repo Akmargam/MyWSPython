@@ -5,9 +5,8 @@ car1={"Make":"Ford","Model":["Eclipse","Mustang","Cruzer"],"Year":"2024"}
 car1["Mileage"]=100#adding a new key pair
 # print(car1)
 
-for x in car1:#prints keys
+for x in car1.keys():#prints keys
     print(x)
-for x in car1:#prints values
-    print(car1[x])
+
 
 
