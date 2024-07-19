@@ -7,5 +7,7 @@ car1["Mileage"]=100#adding a new key pair
 
 for x in car1:#prints keys
     print(x)
+for x in car1:#prints values
+    print(car1[x])
 
 
