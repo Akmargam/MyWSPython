@@ -11,6 +11,8 @@ car1["Mileage"]=100#adding a new key pair
 # for x in car1.values():#prints values
 #     print(x)
 
-for x in car1.items():#prints keys and values
-    print(x)
+# for x in car1.items():#prints keys and values
+#     print(x)
 
+car1["Color"]="Black"
+print(car1)
