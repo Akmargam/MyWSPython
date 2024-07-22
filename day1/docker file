@@ -10,5 +10,5 @@ WORKDIR /usr/src/app
 # Copy the current directory contents into the container at /usr/src/app
 COPY . .
 
-# Command to run the Python script
+# Command to run the Python scripts
 CMD ["python3", "./app.py"]
