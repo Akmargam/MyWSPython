@@ -11,4 +11,4 @@ WORKDIR /usr/src/app
 COPY . .
 
 # Command to run the Python scripts
-CMD ["python3", "./app.py"]
+CMD ["python3", "./first.py"]
