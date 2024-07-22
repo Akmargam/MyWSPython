@@ -8,10 +8,12 @@
 s1={1,2,3,5,6,3}
 s2={4,2,6,4,8,9,1,5}
 #union
-print(s1|s2)
-print(s1.union(s2))
+# print(s1|s2)
+# print(s1.union(s2))
 #intersection
-print(s1&s2)
-print(s1.intersection(s2))
+# print(s1&s2)
+# print(s1.intersection(s2))
 #not ordered
 #not indexed
+s1.remove(3)
+print(s1)
