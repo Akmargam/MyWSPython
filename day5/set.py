@@ -13,3 +13,5 @@ print(s1.union(s2))
 #intersection
 print(s1&s2)
 print(s1.intersection(s2))
+#not ordered
+#not indexed
