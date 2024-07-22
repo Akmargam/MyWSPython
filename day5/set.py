@@ -17,3 +17,6 @@ s2={4,2,6,4,8,9,1,5}
 #not indexed
 s1.remove(3)
 print(s1)
+list1=[0,4,8,3,8]
+s1.update(list1)
+print(s1)
