@@ -12,10 +12,15 @@
 # result=sum(num1,num2)
 # print(result)
 
-def oddeven(num):
-    if(num%2==0):
-        print("it's even number")
-    else:
-        print("It' Odd")
-num=int(input("Enter a number"))
-oddeven(num)
+# def oddeven(num):
+#     if(num%2==0):
+#         print("it's even number")
+#     else:
+#         print("It' Odd")
+# num=int(input("Enter a number"))
+# oddeven(num)
+
+def funName(*argv):#creates tuple
+    for arg in argv:
+        print(arg)
+funName(2,3,4,7,8)
