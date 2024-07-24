@@ -2,7 +2,7 @@ class Book:
     def __init__(self,author,book,price):#constructor
         self.author=author
         self.book=book
-        self.price=price
+        self.__price=price#__make it a private variable
         
         
     def __repr__(self):#
@@ -10,4 +10,5 @@ class Book:
         
 book1=Book("CB","2s","100")
 print(book1.author)
+print(book1.price)
 print(book1)
