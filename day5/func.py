@@ -7,5 +7,7 @@
 def sum(num1,num2):
     total=num1+num2
     return total
-result=sum(9,9)
+num1=int(input("Enter number 1"))
+num2=int(input("Enter number 2"))
+result=sum(num1,num2)
 print(result)
