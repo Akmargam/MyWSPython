@@ -13,5 +13,5 @@ citizen ={
     "Profession":"Hotelier",
     "Cars":["RAM","VV","MB"]
 }
-with open("Peter.json",'w') as fp:
+with open("person.json",'w') as fp:
     json.dump(citizen,fp)
