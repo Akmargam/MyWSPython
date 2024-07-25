@@ -2,7 +2,7 @@ class Book:
     def __init__(self,author,book,price):#constructor
         self.author=author
         self.book=book
-        self.__price=price#__make it a private variable
+        self.__price=None#__make it a private variable
         
         
     def __repr__(self):#
